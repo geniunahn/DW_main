@@ -73,16 +73,38 @@ nav > ul {
   height: 90px;
   display: flex;
   align-items: center;
+  position: relative;
+}
+
+.lang {
+  height: 100%;
 }
 
 .lang a {
   display: flex;
   align-items: center;
   margin-right: 45px;
+  height: 100%;
+  width: 100%;
 }
 
 .lang a svg {
   margin-left: 10px;
+}
+
+.lang a ul {
+  max-height: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 100%;
+  background: #fff;
+  width: 40px;
+  text-align: left;
+}
+
+.lang a:hover ul {
+  max-height: 200px;
+  transition: 1s;
 }
 
 .m_btn a {
@@ -92,7 +114,15 @@ nav > ul {
 
 /* ========================================================================== */
 
-/* site_map 입니다. */
+/* site_map 스타일입니다. */
+
+.site_map {
+  display: none;
+}
+
+.site_map_open {
+  display: block;
+}
 
 /* site_map 의 상단입니다. */
 
@@ -103,15 +133,23 @@ nav > ul {
   width: 100vw;
   height: 100vh;
   background-color: #fff;
-  padding: 30px;
-  display: none;
+  padding: 40px 100px;
+  /* display: none; */
 }
 
 .site_map_upper {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* outline: 1px solid #000; */
+  text-align: center;
+}
+
+.site_map_logo {
+  width: 25%;
+}
+
+.site_map_header_ui {
+  width: 25%;
 }
 
 .site_map_logo a img {
@@ -122,8 +160,35 @@ nav > ul {
 /* site_map 의 하단입니다. */
 
 .site_map_nav {
-  outline: 1px solid #000;
   height: 100%;
+}
+
+.site_map_dep1_ul {
+  display: flex;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.site_map_dep1_li {
+  width: 25%;
+}
+
+.site_map_dep1_li > a {
+  font-size: 16px;
+  color: #999;
+}
+
+.site_map_dep2_ul {
+  padding-top: 25px;
+}
+
+.site_map_dep2_li {
+  line-height: 2rem;
+}
+
+.site_map_dep2_li > a {
+  font-size: 16px;
+  color: #000;
 }
 
 /* ========================================================================== */
@@ -446,7 +511,7 @@ nav > ul {
 /* footer 의 왼쪽 영역입니다. */
 
 .footer_left {
-  padding: 26px 0 48px 300px;
+  padding: 26px 0 48px 200px;
 }
 
 .footer_left_upper {
@@ -486,7 +551,7 @@ nav > ul {
 /* footer 의 오른쪽 영역입니다. */
 
 .footer_right {
-  padding: 41px 300px 77px 0;
+  padding: 41px 200px 77px 0;
   display: flex;
   flex-direction: column;
   align-items: flex-end;

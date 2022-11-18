@@ -1,3 +1,5 @@
+// 메인 배너 애니메이션 입니다.
+
 $(function () {
   let bgArr = [
     "../images//main_bn_1.jpg",
@@ -25,12 +27,25 @@ $(function () {
       "background-image": `url(${bgArr[bg_img_num]})`,
     });
 
+    $(".main_bn").css({
+      transition: "1s",
+      opacity: "1",
+    });
+
     $(".main_bn_title h3").html(bnTitle_1[bg_img_num]);
     $(".main_bn_title h1").html(bnTitle_2[bg_img_num]);
     $(".main_bn_title p").html(bnTitle_3[bg_img_num]);
-
-    $(".main_bn").css({
-      transition: "1.5s",
-    });
   }, 7000);
+});
+
+// 사이트맵 버튼 입니다.
+
+$(function () {
+  $(".m_btn a").on("click", function () {
+    $(".site_map").toggleClass("site_map_open");
+  });
+
+  $(".site_map_close_btn a").on("click", function () {
+    $(".site_map").removeClass("site_map_open");
+  });
 });
