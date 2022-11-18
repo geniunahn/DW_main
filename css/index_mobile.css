@@ -45,6 +45,42 @@ nav {
 
 /* ========================================================================== */
 
+/* site_map 입니다. */
+
+/* site_map 의 상단입니다. */
+
+.site_map {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  padding: 30px;
+  display: none;
+}
+
+.site_map_upper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* outline: 1px solid #000; */
+}
+
+.site_map_logo a img {
+  width: 129px;
+  height: 57px;
+}
+
+/* site_map 의 하단입니다. */
+
+.site_map_nav {
+  outline: 1px solid #000;
+  height: 100%;
+}
+
+/* ========================================================================== */
+
 /* main_bn css 입니다. */
 
 .main_bn {
