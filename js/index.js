@@ -35,7 +35,7 @@ $(function () {
     $(".main_bn_title h3").html(bnTitle_1[bg_img_num]);
     $(".main_bn_title h1").html(bnTitle_2[bg_img_num]);
     $(".main_bn_title p").html(bnTitle_3[bg_img_num]);
-  }, 7000);
+  }, 2000);
 });
 
 // 사이트맵 버튼 입니다.
