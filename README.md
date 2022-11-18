@@ -4,7 +4,7 @@
 </br>
 안정원 : https://github.com/geniunahn/DW_main</br>
 권동환 : https://github.com/z9in/project1_daewoong</br>
-김명아 : https://github.com/myeongakim7/Daewoong-Plastic-Compound/tree/main/%EB%8C%80%EC%9B%85</br>
+김명아 : https://github.com/myeongakim7/Daewoong-Plastic-Compound
 </br>
 </br>
 11월 18일 </br>
