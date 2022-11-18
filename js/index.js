@@ -2,9 +2,9 @@
 
 $(function () {
   let bgArr = [
-    "../images//main_bn_1.jpg",
-    "../images//main_bn_2.jpg",
-    "../images//main_bn_3.jpg",
+    "../images/main_bn_1.jpg",
+    "../images/main_bn_2.jpg",
+    "../images/main_bn_3.jpg",
   ];
 
   let bnTitle_1 = ["Eco", "Improving", "Qulity"];
