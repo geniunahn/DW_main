@@ -58,6 +58,8 @@ body {
 
 /* 애니메이션 이벤트입니다. */
 
+/* 버튼의 hover 이벤트입니다. */
+
 .main_btn a:hover {
   transition: 0.5s;
   background: #000;

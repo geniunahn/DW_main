@@ -230,7 +230,8 @@ nav > ul {
 /* about 입니다. */
 
 .about {
-  margin-top: 140px;
+  width: 79.16666vw;
+  margin: 140px auto 0;
 }
 
 .about_bn {
@@ -266,7 +267,8 @@ nav > ul {
 .product {
   height: 1139px;
   background: var(--bgc);
-  margin-top: 100px;
+  width: 79.16666vw;
+  margin: 100px auto 0;
   padding-top: 100px;
 }
 
@@ -283,19 +285,22 @@ nav > ul {
 }
 
 .product_contents {
-  margin: 61px;
+  margin: 61px 0;
   display: flex;
-  gap: 85px;
+  gap: 5.5921%;
 }
 
 .product_contents_box {
-  width: 450px;
+  width: 29.60526%;
   height: 588px;
 }
 
 .product_contents_img {
-  width: 450px;
-  height: 400px;
+  width: 100%;
+}
+
+.product_contents_img img {
+  width: 100%;
 }
 
 .product_contents_text h3 {
@@ -318,13 +323,14 @@ nav > ul {
 /* innovation 입니다. */
 
 .innovation {
+  width: 79.16666vw;
   height: 560px;
   background-image: url(../images/innovation.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   padding: 82px 0 82px 104px;
-  margin: 100px 0 200px;
+  margin: 100px auto 200px;
 }
 
 .innovation_title h3 {
@@ -371,36 +377,43 @@ nav > ul {
 /* marketing 입니다. */
 
 .marketing {
-  margin-bottom: 100px;
+  width: 79.16666vw;
+  margin: 0 auto 100px;
 }
 
 .marketing_contents {
   display: flex;
-  width: 1520px;
-  height: 560px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .marketing_img {
-  width: 900px;
-  height: 560px;
+  width: 59.21052%;
+}
+
+.marketing_img img {
+  width: 100%;
 }
 
 .marketing_title {
-  width: 650px;
-  height: 560px;
-  padding: 80px 0 80px 120px;
+  width: 40.78947%;
+  padding: 80px 0 80px 7.89473%;
 }
 
 .marketing_title h3 {
+  width: 100%;
   font-size: 50px;
   font-weight: 500;
 }
 .marketing_title h1 {
+  width: 100%;
   font-size: 60px;
   font-weight: 500;
   line-height: 4.3rem;
 }
 .marketing_title p {
+  width: 100%;
   font-size: 30px;
   font-weight: 400;
   margin-top: 40px;
@@ -413,26 +426,29 @@ nav > ul {
 /* recruit 입니다. */
 
 .recruit {
-  height: 760px;
+  width: 79.16666vw;
+  margin: 0 auto;
   background: var(--bgc);
   padding: 100px 0;
 }
 
 .recruit_contents {
   display: flex;
-  width: 1520px;
-  height: 560px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .recruit_img {
-  width: 900px;
-  height: 560px;
+  width: 59.21052%;
+}
+
+.recruit_img img {
+  width: 100%;
 }
 
 .recruit_title {
-  width: 650px;
-  height: 560px;
-  padding: 80px 120px 80px 0px;
+  width: 40.78947%;
+  padding: 80px 7.89473% 80px 0px;
 }
 
 .recruit_title h3 {
@@ -457,24 +473,25 @@ nav > ul {
 /* contact 입니다. */
 
 .contact {
-  margin-top: 100px;
+  width: 79.16666vw;
+  margin: 100px auto 0;
 }
 
 .contact_contents {
   display: flex;
-  width: 1520px;
-  height: 560px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .contact_img {
-  width: 900px;
+  width: 59.21052%;
   height: 560px;
 }
 
 .contact_title {
-  width: 650px;
-  height: 560px;
-  padding: 80px 0 80px 120px;
+  width: 40.78947%;
+  padding: 80px 0 80px 7.89473%;
 }
 
 .contact_title h3 {
@@ -511,7 +528,7 @@ nav > ul {
 /* footer 의 왼쪽 영역입니다. */
 
 .footer_left {
-  padding: 26px 0 48px 200px;
+  padding: 26px 0 48px 10.41666%;
 }
 
 .footer_left_upper {
@@ -551,7 +568,7 @@ nav > ul {
 /* footer 의 오른쪽 영역입니다. */
 
 .footer_right {
-  padding: 41px 200px 77px 0;
+  padding: 41px 10.41666% 77px 0;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
