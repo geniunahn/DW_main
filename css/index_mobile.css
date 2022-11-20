@@ -105,6 +105,7 @@
   max-height: 0;
   overflow: hidden;
   margin-top: 5px;
+  transition: 1s;
 }
 
 .site_map_dep2_li {
@@ -118,7 +119,6 @@
 
 .site_map_dep1_li:hover > ul {
   max-height: 200px;
-  transition: 1s;
 }
 
 /* ========================================================================== */
