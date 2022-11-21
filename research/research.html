@@ -31,7 +31,6 @@
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="./component_js/component.js"></script>
-    <script src="./research_js/research.js"></script>
     <title>리서치입니다</title>
   </head>
   <body>
@@ -218,9 +217,10 @@
         </section>
         <div class="sub_menu">
           <img src="./research_images/sub_home.png" alt="img" />
-          <a href="#"> | 연구정보 | </a>
-          <a href="#center">연구소소개 | </a>
-          <a href="#tech">기술특허</a>
+          <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;연구정보&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+          </p>
+          <p>연구소소개</p>
         </div>
         <section class="sub_title">
           <div class="container">
@@ -231,16 +231,17 @@
                 친환경 기술의 미래를 실현하기 위해 최선을 다하겠습니다.
               </p>
             </div>
+            <div class="mark_bg"></div>
             <img
               class="pc_img"
               src="./research_images/sub_title_img.jpg"
               alt="img"
             />
-            <img
+            <!-- <img
               class="mobile_img"
               src="./research_images/mobile_sub2_2.jpg"
               alt="img"
-            />
+            /> -->
           </div>
         </section>
         <section id="center">
@@ -269,7 +270,7 @@
             </div>
             <ul>
               <li>
-                <img src="./research_images/tech_img1.jpg" alt="img" />
+                <div class="pm_img_1"></div>
                 <h2>제품설계 및 시제품 제작</h2>
                 <p>
                   열정과 비전을 가지고 보다 나은 미래와 대웅의 발전을 이루기
@@ -278,7 +279,8 @@
                 </p>
               </li>
               <li>
-                <img src="./research_images/tech_img2.jpg" alt="img" />
+                <div class="pm_img_2"></div>
+
                 <h2>엄격한 시제품 테스트 진행</h2>
                 <p>
                   충격 강도 분석, 열변형 온도 측정, 경도 측정, 환경오염도 분석
@@ -287,7 +289,8 @@
                 </p>
               </li>
               <li>
-                <img src="./research_images/tech_img3.jpg" alt="img" />
+                <div class="pm_img_3"></div>
+
                 <h2>신제품 생산 시작</h2>
                 <p>
                   신제품 생산은 신중함과 치밀한 자세로 시작됩니다. 대웅의 기술과
@@ -392,5 +395,6 @@
         </div>
       </footer>
     </div>
+    <script src="./research_js/research.js"></script>
   </body>
 </html>
