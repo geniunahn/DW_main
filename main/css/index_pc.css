@@ -171,10 +171,10 @@ nav > ul {
 .site_map_dep1_li {
   width: 25%;
 }
-
+/* 폰트 수정, 색상 변경 */
 .site_map_dep1_li > a {
-  font-size: 16px;
-  color: #999;
+  font-size: 30px;
+  color: #000;
 }
 
 .site_map_dep2_ul {
@@ -183,11 +183,12 @@ nav > ul {
 
 .site_map_dep2_li {
   line-height: 2rem;
+  margin-top: 20px;
 }
-
+/* 폰트 수정, 색상 변경 */
 .site_map_dep2_li > a {
-  font-size: 16px;
-  color: #000;
+  font-size: 22px;
+  color: #444;
 }
 
 /* ========================================================================== */

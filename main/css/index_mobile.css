@@ -95,10 +95,10 @@
   margin-top: 30px;
   border-bottom: 1px solid #666;
 }
-
+/* 폰트 수정, 색상 변경 */
 .site_map_dep1_li > a {
-  font-size: 20px;
-  color: #999;
+  font-size: 28px;
+  color: #000;
 }
 
 .site_map_dep2_ul {
@@ -109,16 +109,16 @@
 }
 
 .site_map_dep2_li {
-  margin-top: 10px;
+  margin-top: 20px;
 }
-
+/* 폰트 수정, 색상 변경 */
 .site_map_dep2_li > a {
-  font-size: 20px;
-  color: #000;
+  font-size: 23px;
+  color: #444;
 }
 
 .site_map_dep1_li:hover > ul {
-  max-height: 200px;
+  max-height: 260px;
 }
 
 /* ========================================================================== */
@@ -402,7 +402,7 @@
 
 .contact_img iframe {
   width: 100%;
-  height: 240px;
+  height: 400px;
 }
 
 .contact_title h3 {
