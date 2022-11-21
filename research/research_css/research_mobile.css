@@ -1,7 +1,7 @@
 /* sub_main_ banner */
 .sub_2 .sub_main_banner {
-  width: 100vw;
-  height: 300px;
+  width: 100%;
+  height: 320px;
   background-color: #ccc;
 }
 .sub_main_banner .container {
@@ -28,7 +28,6 @@
   display: fixed;
   left: 0px;
   top: 520px;
-  padding: 20px;
   padding: 0 20px;
 }
 .sub_2 .sub_menu > p {
@@ -49,7 +48,7 @@
   height: 400px;
   margin-top: 50px;
   margin-bottom: 50px;
-  padding: 0 30px;
+  padding: 0 20px;
   /* outline: 1px solid red; */
 }
 .sub_2 .sub_title .container {
@@ -100,7 +99,7 @@
 /* 연구소 소개 */
 #center {
   /* margin-top: 100px; */
-  width: 100vw;
+  width: 100%;
   /* height: px; */
   background-color: #f7f7f7;
   padding: 50px 20px;
@@ -120,7 +119,7 @@
   width: 100%;
   position: relative;
   /* margin-top: 50px; */
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   /* outline: 1px solid red; */
 }
 #center .container .mark {
@@ -145,8 +144,7 @@
 
 /* 제품 개발 */
 .sub_2 #pm {
-  width: 100vw;
-  height: 1700px;
+  width: 100%;
   /* margin-bottom: 50px; */
   margin-top: 50px;
   /* outline: 1px solid red; */
@@ -161,6 +159,7 @@
 #pm .container .text {
   width: 100%;
   position: relative;
+  margin-bottom: 30px;
   /* margin-bottom: 25px; */
 }
 #pm .container .mark {
@@ -178,14 +177,15 @@
 }
 #pm .container > ul {
   width: 100%;
-  height: 630px;
+  /* height: 630px; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  /* outline: 1px solid red; */
 }
 #pm .container ul > li {
   width: 100%;
-  height: 500px;
+  /* height: 500px; */
   /* outline: 1px solid blue; */
   margin-bottom: 50px;
 }
@@ -236,7 +236,7 @@
 #tech {
   margin-top: 0px;
   margin-bottom: 50px;
-  width: 100vw;
+  width: 100%;
   height: 320px;
   /* background-color: #ccc; */
   padding: 0 20px;
@@ -257,15 +257,24 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  padding-top: 115px;
+  /* padding-top: 115px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #tech .container .mobile_ver {
   color: white;
-  font-size: 16px;
   text-align: center;
-  margin: 0px 30px;
+  /* margin: 0px 30px; */
   margin-bottom: 30px;
 }
+
+.mobile_ver {
+  font-weight: 400;
+  font-size: 16px;
+}
+
 #tech .container .pc_ver {
   display: none;
 }
@@ -274,7 +283,7 @@
   height: 50px;
   background: none;
   border: 1.5px solid #fff;
-  margin-left: 100px;
+  /* margin-left: 100px; */
 }
 #tech .container button > span {
   font-size: 15px;

@@ -1,5 +1,5 @@
 .sub_3 .sub_main_banner {
-  width: 100vw;
+  width: 100%;
   height: 320px;
 }
 .sub_3 .sub_main_banner .container {
@@ -40,7 +40,7 @@
 
 .sub_3 .sub_title {
   margin-top: 50px;
-  width: 100vw;
+  /* width: 100vw; */
   height: 60px;
   /* outline: 1px solid red; */
   position: relative;
@@ -74,7 +74,7 @@
   font-weight: 500;
 }
 .sub_3 #kind {
-  width: 100vw;
+  /* width: 100vw; */
   height: 200px;
   /* outline: 1px solid red; */
   padding: 0 20px;
@@ -112,8 +112,7 @@
 }
 
 #kind .container ul {
-  margin-top: 20px;
-  margin-left: 15px;
+  margin: 20px auto 0;
   width: 90%;
   height: 100px;
   display: flex;
@@ -151,7 +150,6 @@
 }
 
 .viewBox {
-  width: 100vw;
   height: 1350px;
   background-color: #f7f7f7;
   margin-bottom: 200px;
@@ -169,11 +167,14 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding: 0 20px;
   /* outline: 1px solid red; */
 }
 .viewBox .container ul > li {
   outline: 1px solid rgba(0, 0, 0, 0.2);
-  width: 80%;
+  /* width: 80%; */
+
+  width: 100%;
   height: 320px;
   margin-top: 70px;
   margin-bottom: 60px;
@@ -203,7 +204,7 @@
   align-self: flex-start;
 }
 .viewBox .dial {
-  margin-top: 10px;
+  margin-top: 50px;
   /* outline: 1px solid red; */
   width: 100%;
   display: flex;
