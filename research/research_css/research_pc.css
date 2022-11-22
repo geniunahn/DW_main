@@ -250,7 +250,7 @@
 
 /* 특허증 */
 #tech .container > #paper {
-  max-width: 100%;
+  max-width: 1520px;
   height: 650px;
   overflow: hidden;
   position: absolute;
