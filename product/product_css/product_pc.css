@@ -46,7 +46,7 @@
 }
 
 .sub_3 .sub_title h2 {
-  border-top: 2px solid #a2c233;
+  border-top: 3px solid #a2c233;
   display: inline-block;
   margin: 0 auto;
   font-size: 48px;
@@ -167,10 +167,9 @@
   display: flex;
   /* flex-direction: column; */
   /* justify-content: space-between; */
-  align-items:center;
+  align-items: center;
   flex-wrap: wrap;
   /* outline: 1px solid blue; */
-
 }
 
 .viewBox .container ul > li {
