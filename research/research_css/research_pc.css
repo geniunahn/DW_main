@@ -7,7 +7,6 @@
 .sub_2 .sub_main_banner {
   width: 100%;
   height: 500px;
-  /* background-color: #ccc; */
   margin: 0 auto;
 }
 .sub_main_banner .container {
@@ -51,7 +50,6 @@
 /* sub_title */
 .sub_2 .sub_title {
   max-width: 1520px;
-  /* width: 100%; */
   height: 700px;
   margin: 0 auto;
   margin-top: 150px;
@@ -60,7 +58,6 @@
   max-width: 1520px;
   height: 100%;
   position: relative;
-  /* outline: 1px solid blue; */
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -111,18 +108,12 @@
 #center .container {
   max-width: 1520px;
   height: 100%;
-  /* outline: 1px solid black; */
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
-  /* margin: 0 auto; */
 }
 #center .container .text {
   margin: 0 auto;
   max-width: 1520px;
   position: relative;
   margin-bottom: 100px;
-  /* outline: 1px solid red; */
   margin-top: 160px;
 }
 #center .container .mark {
@@ -131,13 +122,10 @@
   background-color: #a2c233;
   position: absolute;
   left: 5px;
-  /* margin: 0 auto; */
 }
 #center .container h1 {
   font-size: 48px;
   font-weight: 500;
-  /* margin: 0 auto; */
-
   margin-top: 10px;
 }
 
@@ -145,7 +133,6 @@
   width: 100%;
   margin: 0 auto;
   margin-bottom: 100px;
-  /* margin-top: 100px; */
 }
 #center .container .mobile_img {
   display: none;
@@ -155,23 +142,17 @@
 /* 제품 개발 */
 .sub_2 #pm {
   width: 100%;
-  /* height: 1000px; */
   margin: 0 auto;
   margin-bottom: 200px;
 }
 #pm .container {
   max-width: 1520px;
-  /* height: 720px; */
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  /* outline: 1px solid #000; */
 }
 #pm .container .text {
-  /* max-width: 1520px; */
   position: relative;
-  /* margin: 0 auto; */
-
   margin-bottom: 100px;
 }
 #pm .container .mark {
@@ -191,18 +172,12 @@
 #pm .container > ul {
   width: 100%;
   height: 100%;
-  /* height: 580px; */
   display: flex;
   justify-content: space-between;
   margin: 0px auto 0px;
 }
 #pm .container ul > li {
   width: 30%;
-
-  /* outline: 1px solid #000; */
-  /* width: 450px; */
-  /* height: 630px; */
-  /* margin: 0 auto; */
 }
 
 .pm_img_1 img,
@@ -210,32 +185,6 @@
 .pm_img_3 img {
   width: 100%;
 }
-
-/* .pm_img_1 {
-  background-image: url(../research_images/tech_img1.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
-} */
-
-/* .pm_img_2 {
-  background-image: url(../research_images/tech_img2.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
-}
-.pm_img_3 {
-  background-image: url(../research_images/tech_img3.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
-} */
 
 #pm .container ul li h2 {
   font-size: 26px;
@@ -255,11 +204,8 @@
 #tech {
   width: 100%;
   height: 500px;
-  /* background-color: #ccc; */
   margin: 0 auto;
-  /* margin-top: 600px; */
   margin-bottom: 200px;
-  /* outline: 1px solid #000; */
 }
 #tech .container {
   max-width: 1920px;
@@ -270,7 +216,6 @@
 #tech .container .techBanner {
   max-width: 1520px;
   height: 100%;
-  /* outline: 1px solid red; */
   background-image: url(../research_images/tech_background.jpg);
   background-size: cover;
   background-position: center center;
@@ -307,7 +252,6 @@
 #tech .container > #paper {
   max-width: 1920px;
   height: 650px;
-  /* outline: 1px solid blue; */
   overflow: hidden;
   position: absolute;
   top: 0;
@@ -317,7 +261,6 @@
   margin: 0 auto;
 }
 #paper .close {
-  /* outline: 1px solid blue; */
   position: relative;
   height: 60px;
   margin: 0 auto;
@@ -335,7 +278,6 @@
   margin-top: 10px;
 }
 #paper .images {
-  /* outline: 1px solid red; */
   width: 6750px;
   height: 600px;
   display: flex;
@@ -344,6 +286,7 @@
   animation: translate 20s infinite;
   margin: 0 auto;
 }
+
 @keyframes translate {
   from {
     translate: 0px;

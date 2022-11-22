@@ -49,14 +49,12 @@
   margin-top: 50px;
   margin-bottom: 50px;
   padding: 0 20px;
-  /* outline: 1px solid red; */
 }
 .sub_2 .sub_title .container {
   max-width: 1920px;
   height: 100%;
   margin-top: 50px;
   position: relative;
-  /* outline: 1px solid blue; */
   display: flex;
   flex-direction: column;
 }
@@ -84,7 +82,6 @@
 .sub_2 .sub_title .mobile_img {
   width: 100%;
   height: 300px;
-  /* margin-bottom: 100px; */
 }
 
 .mark_bg {
@@ -98,19 +95,12 @@
 
 /* 연구소 소개 */
 #center {
-  /* margin-top: 100px; */
   width: 100%;
-  /* height: px; */
   background-color: #f7f7f7;
   padding: 50px 20px;
-  /* outline: 1px solid red; */
-  /* margin-top: 50px;
-  margin-bottom: 50px; */
 }
 #center .container {
   max-width: 1520px;
-  /* height: 100%; */
-  /* outline: 1px solid black; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -118,9 +108,7 @@
 #center .container .text {
   width: 100%;
   position: relative;
-  /* margin-top: 50px; */
   margin-bottom: 30px;
-  /* outline: 1px solid red; */
 }
 #center .container .mark {
   width: 120px;
@@ -138,45 +126,34 @@
 }
 
 #center .container .mobile_img {
-  /* margin-bottom: 50px; */
   width: 100%;
 }
 
 /* 제품 개발 */
 .sub_2 #pm {
   width: 100%;
-  /* height: 1000px; */
   margin: 0 auto;
   margin-bottom: 50px;
 }
 #pm .container {
   max-width: 1520px;
-  /* height: 720px; */
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  /* outline: 1px solid #000; */
 }
 #pm .container .text {
-  /* max-width: 1520px; */
   position: relative;
-  /* margin: 0 auto; */
+  margin-bottom: 50px;
+  padding: 0 20px;
+}
 
-  margin-bottom: 100px;
-}
-#pm .container .mark {
-  width: 180px;
-  height: 3px;
-  background-color: #a2c233;
-  position: absolute;
-  left: 5px;
-  margin: 0 auto;
-}
 #pm .container h1 {
-  font-size: 48px;
+  font-size: 26px;
   font-weight: 500;
   margin: 0 auto;
-  margin-top: 10px;
+  margin-top: 50px;
+  border-top: 3px solid #a2c233;
+  display: inline-block;
 }
 #pm .container > ul {
   width: 100%;
@@ -192,7 +169,7 @@
 }
 #pm .container ul > li {
   width: 100%;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 .pm_img_1 img,
@@ -202,17 +179,17 @@
 }
 
 #pm .container ul li h2 {
-  font-size: 26px;
+  font-size: 18px;
   font-weight: 500;
   margin: 0 auto;
-  margin-top: 25px;
+  margin-top: 15px;
 }
 #pm .container ul li p {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.8em;
   margin: 0 auto;
-  margin-top: 25px;
+  margin-top: 15px;
 }
 
 /* 기술 특허 */
@@ -221,26 +198,20 @@
   margin-bottom: 50px;
   width: 100%;
   height: 320px;
-  /* background-color: #ccc; */
   padding: 0 20px;
 }
 #tech .container {
   max-width: 1520px;
   height: 100%;
-  /* display: flex;
-    justify-content: center;
-    align-items: center; */
   position: relative;
 }
 #tech .container .techBanner {
   width: 100%;
   height: 100%;
-  /* outline: 1px solid red; */
   background-image: url(../research_images/tech_background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  /* padding-top: 115px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -249,7 +220,6 @@
 #tech .container .mobile_ver {
   color: white;
   text-align: center;
-  /* margin: 0px 30px; */
   margin-bottom: 30px;
 }
 
@@ -266,7 +236,6 @@
   height: 50px;
   background: none;
   border: 1.5px solid #fff;
-  /* margin-left: 100px; */
 }
 #tech .container button > span {
   font-size: 15px;
@@ -277,17 +246,13 @@
 #tech .container > #paper {
   width: 100%;
   height: 500px;
-  /* outline: 1px solid blue; */
-  /* overflow: hidden; */
   position: absolute;
   top: 0;
   left: 0;
-  /* z-index: 99; */
   background-color: rgba(0, 0, 0, 0.5);
   display: none;
 }
 #paper .close {
-  /* outline: 1px solid blue; */
   position: relative;
   height: 60px;
 }
@@ -303,22 +268,12 @@
   right: 40px;
 }
 #paper .images {
-  /* outline: 1px solid red; */
   width: 100%;
   height: 400px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* animation: translate 20s infinite; */
 }
-/* @keyframes translate {
-    from {
-        translate: 0px;
-    }
-    to {
-        translate: -4900px;
-    }
-} */
 
 #paper .images img {
   outline: 1px solid black;
@@ -328,3 +283,12 @@
   margin-left: 60px;
   float: left;
 }
+
+/* @keyframes translate {
+    from {
+        translate: 0px;
+    }
+    to {
+        translate: -4900px;
+    }
+} */
