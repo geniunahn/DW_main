@@ -186,7 +186,7 @@
 }
 
 .about_bn {
-  height: 240px;
+  height: 280px;
   background-image: url(../images/about.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -266,7 +266,6 @@
 
 .innovation {
   width: 100%;
-  height: 320px;
   background-image: url(../images/innovation.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -332,14 +331,10 @@
 
 /* marketing 입니다. */
 
-.marketing_contents {
-  height: 484px;
-}
-
 .marketing_img img {
   width: 100%;
-  height: 240px;
   object-fit: cover;
+  object-position: top;
 }
 
 .marketing_title h3 {
@@ -382,7 +377,6 @@
 
 .recruit_img img {
   width: 100%;
-  height: 240px;
   object-fit: cover;
 }
 .recruit_title {

@@ -282,9 +282,12 @@ nav > ul {
 .product {
   height: 1139px;
   background: var(--bgc);
-  width: 79.16666vw;
   margin: 100px auto 0;
   padding-top: 100px;
+}
+
+.product_width_rate {
+  width: 79.16666vw;
 }
 
 .product_title h3 {
@@ -442,10 +445,13 @@ nav > ul {
 /* recruit 입니다. */
 
 .recruit {
-  width: 79.16666vw;
   margin: 0 auto;
   background: var(--bgc);
   padding: 100px 0;
+}
+
+.recruit_width_rate {
+  width: 79.16666vw;
 }
 
 .recruit_contents {
