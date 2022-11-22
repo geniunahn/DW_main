@@ -111,20 +111,15 @@
   margin: 0 auto;
   max-width: 1520px;
   position: relative;
-  margin-bottom: 100px;
-  margin-top: 160px;
+  margin: 160px 0 100px;
 }
-#center .container .mark {
-  width: 210px;
-  height: 3px;
-  background-color: #a2c233;
-  position: absolute;
-  left: 5px;
-}
+
 #center .container h1 {
   font-size: 48px;
   font-weight: 500;
   margin-top: 10px;
+  border-top: 3px solid #a2c233;
+  display: inline-block;
 }
 
 #center .container .pc_img {
@@ -239,11 +234,17 @@
   border: 1.5px solid #fff;
   margin: 0 auto;
   margin-left: 100px;
-}
-#tech .container button > span {
-  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #fff;
-  margin: 0 auto;
+  font-size: 15px;
+  transition: 1s;
+}
+
+#tech .container button:hover {
+  background: #fff;
+  color: #000;
 }
 
 /* 특허증 */
