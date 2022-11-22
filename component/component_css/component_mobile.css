@@ -1,7 +1,7 @@
 /* header 박스 style 입니다. */
 
 .header {
-  height: 50px;
+  height: 60px;
   display: flex;
   justify-content: space-between;
   padding: 0 20px;
@@ -15,7 +15,7 @@
 }
 
 .logo {
-  height: 50px;
+  height: 60px;
   display: flex;
   align-items: center;
 }
@@ -29,7 +29,7 @@
 /* header 우측 ui style 입니다. */
 
 .header_ui {
-  height: 50px;
+  height: 60px;
   display: flex;
   align-items: center;
 }
