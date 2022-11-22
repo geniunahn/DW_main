@@ -118,6 +118,23 @@
   width: 105px;
 }
 
+.site_map_dep1_li::before {
+  content: "";
+  width: 20px;
+  height: 12px;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  background-image: url(../component_images/site_map_drop_arrow.svg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.site_map_dep1_li:hover::before {
+  width: 0px;
+}
+
 .site_map_dep2_ul {
   max-height: 0;
   overflow: hidden;
