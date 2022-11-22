@@ -1,6 +1,5 @@
 /* sub_main_ banner */
 .sub_2 {
-  max-width: 1520px;
   margin: 0 auto;
 }
 
@@ -10,7 +9,6 @@
   margin: 0 auto;
 }
 .sub_main_banner .container {
-  max-width: 1520px;
   height: 100%;
   background-image: url(../research_images/resaerch_main_banner.jpg);
   background-repeat: no-repeat;
@@ -100,7 +98,7 @@
 
 /* 연구소 소개 */
 #center {
-  width: 100%;
+  max-width: 1520px;
   height: 1350px;
   margin: 0 auto;
   margin-top: 150px;
