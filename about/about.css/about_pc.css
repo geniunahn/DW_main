@@ -18,35 +18,38 @@ h2 {
 
 .container {
   max-width: 1520px;
-  /* background-color: #ccc; */
   margin: 0 auto;
   position: relative;
 }
 
 /* main-visual */
 .main-visual {
-  max-width: 100%; /*1920px-container*/
+  max-width: 100%;
   height: 500px;
-  /* background-color: tomato; */
   background-image: url(../about_images/main-visual.jpg);
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .main-visual p {
   color: #fff;
   font-size: 80px;
   font-weight: 700;
 }
+
 /* lnb */
+
 #intro .container .Lnb {
   display: flex;
   margin-top: 25px;
   font-size: 14px;
 }
+
 #intro .container .Lnb img {
   margin-right: 1em;
 }
+
 #intro .container .Lnb .lnb-color {
   color: #023586;
 }
@@ -56,14 +59,17 @@ h2 {
 #intro .container .intro-text-box {
   padding: 155px 0px 150px 0px;
 }
+
 #intro .container .intro-text-box .mark {
   width: 150px;
   height: 3px;
   background-color: #a2c233;
 }
+
 #intro .container .intro-text-box h1 {
   margin-bottom: 45px;
 }
+
 #intro .container .intro-text-box p {
   font-size: 30px;
   font-weight: 400;
@@ -74,6 +80,7 @@ h2 {
 #vision .vision-bg1 {
   background-color: var(--bg-color);
 }
+
 #vision .vision-bg2 {
   background-color: var(--main-color);
 }
@@ -84,6 +91,7 @@ h2 {
   margin-top: 150px;
   margin-bottom: 88px;
 }
+
 #vision .container h2 {
   font-size: 26px;
   font-weight: 700;
@@ -98,15 +106,12 @@ h2 {
 /* sec1-box */
 #vision .container .section1 {
   padding-bottom: 150px;
-  /* background-color: goldenrod; */
 }
 
 #vision .container .section1 .sec1-box {
   width: 100%;
   height: 694px;
   display: flex;
-  /* background-color: beige;
-  border: 1px solid red; */
   position: relative;
 }
 
@@ -126,15 +131,12 @@ h2 {
 /* sec2-box */
 #vision .container .section2 {
   padding: 150px 0px;
-  /* background-color: pink; */
 }
 
 #vision .container .section2 .sec2-box {
   height: 737px;
   width: 100%;
   display: flex;
-  /* background-color: blanchedalmond;
-  border: 1px solid red; */
   position: relative;
 }
 
@@ -149,25 +151,22 @@ h2 {
   height: 230px;
   position: absolute;
   bottom: 119px;
-  /* background-color: red; */
 }
+
 #vision .container .section2 .sec2-box .text-box .text-box2 {
   width: 622px;
   height: 80px;
-  /* background-color: red; */
 }
 
 /* sec3 */
+
 #vision .container .section3 {
   padding: 150px 0px;
-  /* background-color: palegreen; */
 }
 #vision .container .section3 .sec3-box {
   height: 790px;
   width: 100%;
   display: flex;
-  /* background-color: powderblue;
-  border: 1px solid red; */
   position: relative;
 }
 
@@ -182,10 +181,10 @@ h2 {
   position: absolute;
   bottom: 143px;
   right: 0;
-  /* background-color: #a2c233; */
 }
 
 /* contact */
+
 #contact .contact-bg {
   margin-bottom: 300px;
 }
@@ -208,11 +207,13 @@ h2 {
   display: flex;
   margin-bottom: 30px;
 }
+
 #contact .map-text-box .map-text h3 {
   font-size: 30px;
   font-weight: 400;
   margin-left: 41px;
 }
+
 #contact .map-text-box .map-text p {
   font-size: 20px;
 }
@@ -220,9 +221,11 @@ h2 {
 #contact .map-text-box .map-text .txt2 {
   margin-left: 181px;
 }
+
 #contact .map-text-box .map-text .txt3 {
   margin-left: 155px;
 }
+
 #contact .map-text-box .map-text .txt4 {
   margin-left: 126px;
 }

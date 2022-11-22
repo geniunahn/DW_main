@@ -10,7 +10,6 @@
   background-color: var(--main-color);
   margin: 0 auto;
   position: relative;
-  /* height: 100vh; */
   padding: 0 20px;
 }
 
@@ -45,6 +44,7 @@
   margin-top: 65px;
   margin-bottom: 35px;
 }
+
 #news .container .menu h1 {
   font-size: 26px;
   font-weight: 500;
@@ -52,10 +52,9 @@
 
 /* section1 */
 #news .container .section1 ul li {
-  /* border: 2px solid red; */
-  /* height: 430px; */
   margin-bottom: 80px;
 }
+
 #news .container .section1 ul li img {
   width: 100%;
 }
@@ -66,15 +65,18 @@
   font-size: 14px;
   font-weight: 400;
 }
+
 #news .container .section1 ul .news h2 {
   font-size: 18px;
   font-weight: 500;
 }
+
 #news .container .section1 ul .news p {
   font-size: 16px;
   font-weight: 400;
   margin: 15px 0px;
 }
+
 #news .container .section1 ul .news .news-date {
   color: #666666;
   font-size: 14px;
@@ -83,36 +85,40 @@
 /* dial */
 
 #news .container .dial {
-  /* outline: 1px solid blue; */
   margin-top: 150px;
   margin-bottom: 100px;
 }
 
 #news .dial .numbers {
-  /* outline: 1px solid #000; */
   display: flex;
   justify-content: center;
   font-size: 14px;
 }
+
 #news .dial .numbers button {
   color: #000;
   background-color: transparent;
   border: none;
 }
+
 #news .dial .numbers a {
   color: #000;
   margin-left: 28px;
   margin-right: 26px;
 }
+
 #news .dial .numbers .leftMax {
   margin-right: 26.5px;
 }
+
 #news .dial .numbers .left {
   margin-right: 20px;
 }
+
 #news .dial .numbers .right {
   margin-left: 20px;
 }
+
 #news .dial .numbers .rightMax {
   margin-left: 26.5px;
 }
