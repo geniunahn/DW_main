@@ -5,6 +5,7 @@ if (screen.width > 768) {
     function all() {
       $(".viewBox ul").css({
         top: "0",
+        height : '400%'
       });
       $(".viewBox ul li").css({
         display: "block",
@@ -17,8 +18,8 @@ if (screen.width > 768) {
     function car_out() {
       $(".viewBox ul").css({
         top: "0",
+        height : '200%'
       });
-      $(".viewBox .container ul").css("height", "2800px");
       $(".viewBox ul li").css({
         display: "none",
       });
@@ -38,7 +39,7 @@ if (screen.width > 768) {
       $(".viewBox ul").css({
         top: "0",
       });
-      $(".viewBox .container ul").css("height", "1360px");
+      $(".viewBox .container ul").css("height", "100%");
       $(".viewBox ul li").css({
         display: "none",
       });
@@ -54,7 +55,7 @@ if (screen.width > 768) {
       $(".viewBox ul").css({
         top: "0",
       });
-      $(".viewBox .container ul").css("height", "1360px");
+      $(".viewBox .container ul").css("height", "100%");
       $(".viewBox ul li").css({
         display: "none",
       });
@@ -82,7 +83,7 @@ if (screen.width > 768) {
       .on("click", () =>
         $(".viewBox ul").css({
           position: "absolute",
-          top: "-1360px",
+          top: "-100%",
         })
       );
     $(".dial .numbers p")
@@ -90,7 +91,7 @@ if (screen.width > 768) {
       .on("click", () =>
         $(".viewBox ul").css({
           position: "absolute",
-          top: "-2720px",
+          top: "-200%",
         })
       );
     $(".dial .numbers p")
@@ -98,7 +99,7 @@ if (screen.width > 768) {
       .on("click", () =>
         $(".viewBox ul").css({
           position: "absolute",
-          top: "-4080px",
+          top: "-300%",
         })
       );
     $(".dial .numbers p")
@@ -107,30 +108,6 @@ if (screen.width > 768) {
         $(".viewBox ul").css({
           position: "absolute",
           top: "-5400px",
-        })
-      );
-    $(".dial .numbers p")
-      .eq(5)
-      .on("click", () =>
-        $(".viewBox ul").css({
-          position: "absolute",
-          top: "-6750px",
-        })
-      );
-    $(".dial .numbers p")
-      .eq(6)
-      .on("click", () =>
-        $(".viewBox ul").css({
-          position: "absolute",
-          top: "-7200px",
-        })
-      );
-    $(".dial .numbers p")
-      .eq(7)
-      .on("click", () =>
-        $(".viewBox ul").css({
-          position: "absolute",
-          top: "-8550px",
         })
       );
     //검색
@@ -168,6 +145,7 @@ if (screen.width < 769) {
     function all() {
       $(".viewBox ul").css({
         top: "0",
+        height: '800%'
       });
       $(".viewBox ul li").css({
         display: "block",
@@ -181,7 +159,7 @@ if (screen.width < 769) {
       $(".viewBox ul").css({
         top: "0",
       });
-      $(".viewBox .container ul").css("height", "2800px");
+      $(".viewBox .container ul").css("height", "400%");
       $(".viewBox ul li").css({
         display: "none",
       });
@@ -240,7 +218,7 @@ if (screen.width < 769) {
       .on("click", () =>
         $(".viewBox ul").css({
           position: "absolute",
-          top: "0px",
+          top: "0px"
         })
       );
     $(".dial .numbers p")
@@ -248,7 +226,7 @@ if (screen.width < 769) {
       .on("click", () =>
         $(".viewBox ul").css({
           position: "absolute",
-          top: "-1350px",
+          top: "-100%"
         })
       );
     $(".dial .numbers p")
@@ -256,7 +234,7 @@ if (screen.width < 769) {
       .on("click", () =>
         $(".viewBox ul").css({
           position: "absolute",
-          top: "-2700px",
+          top: "-200%"
         })
       );
     $(".dial .numbers p")
@@ -264,7 +242,7 @@ if (screen.width < 769) {
       .on("click", () =>
         $(".viewBox ul").css({
           position: "absolute",
-          top: "-4050px",
+          top: "-300%"
         })
       );
     $(".dial .numbers p")
@@ -272,7 +250,7 @@ if (screen.width < 769) {
       .on("click", () =>
         $(".viewBox ul").css({
           position: "absolute",
-          top: "-5400px",
+          top: "-400%"
         })
       );
     $(".dial .numbers p")
@@ -280,7 +258,7 @@ if (screen.width < 769) {
       .on("click", () =>
         $(".viewBox ul").css({
           position: "absolute",
-          top: "-6750px",
+          top: "-500%"
         })
       );
     $(".dial .numbers p")
@@ -288,7 +266,7 @@ if (screen.width < 769) {
       .on("click", () =>
         $(".viewBox ul").css({
           position: "absolute",
-          top: "-7100px",
+          top: "-600%"
         })
       );
     $(".dial .numbers p")
@@ -296,7 +274,7 @@ if (screen.width < 769) {
       .on("click", () =>
         $(".viewBox ul").css({
           position: "absolute",
-          top: "-8450px",
+          top: "-700%"
         })
       );
     //검색
