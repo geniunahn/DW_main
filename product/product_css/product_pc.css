@@ -27,7 +27,7 @@
 .sub_3 .sub_menu {
   margin: 25px auto 0;
   max-width: 1520px;
-  padding-left: 20px;
+  /* padding-left: 20px; */
 }
 
 .sub_3 .sub_menu p {
