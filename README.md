@@ -40,3 +40,4 @@ GitHub Pages : https://geniunahn.github.io/DW_main/
 
 2022년 11월 23일
 - 특허증 보기 버튼을 누르면 사용자가 버튼을 클릭해 특허증을 볼 수 있도록 수정함.
+- SEO 태그를 추가함.
