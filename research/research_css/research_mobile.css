@@ -300,11 +300,6 @@
   float: left;
 }
 
-/* @keyframes translate {
-    from {
-        translate: 0px;
-    }
-    to {
-        translate: -4900px;
-    }
-} */
+.direc {
+  display: none;
+}

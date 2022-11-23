@@ -1,14 +1,5 @@
-//sub_2_0.js
-
 let num = 0;
-// btnEl.addEventListener('click',translat);
 
-// function translat() {
-//     paperEl.style.display='block'
-//     paperEl.style = {
-//         'height' : '500px'
-//     }
-// }
 if (screen.width < 768) {
   $("#tech .pop").on("click", function () {
     $("#paper").css({
