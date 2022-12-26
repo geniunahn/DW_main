@@ -3,10 +3,9 @@
 - 조원 : 권동환 (연구정보, 제품정보 페이지 구현함, 연구정보의 '특허증 자세히 보기' 와 제품 정보의 버튼 이벤트를 구현함.)
 - 조원 : 김명아 (회사소개 시안을 추가적으로 수정, 파비콘 디자인, 회사소개, 홍보센터 페이지를 구현함.)
 
-- 깃허브 url :
-- 안정원 : https://github.com/geniunahn/DW_main
-- 권동환 : https://github.com/z9in/project1_daewoong
-- 김명아 : https://github.com/myeongakim7/Daewoong-Plastic-Compound
+- 안정원 깃허브 url : https://github.com/geniunahn/DW_main
+- 권동환 깃허브 url : https://github.com/z9in/project1_daewoong
+- 김명아 깃허브 url : https://github.com/myeongakim7/Daewoong-Plastic-Compound
 
 - 대웅 플라스틱 오리지날 사이트 : http://www.dwpolychem.com/home/index.php
 - 프로젝트 url :https://geniunahn.github.io/DW_main/
