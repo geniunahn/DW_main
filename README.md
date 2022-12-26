@@ -1,10 +1,10 @@
 # 대웅 리디자인 팀 프로젝트
-- 팀장 : 안정원 (시안 디자인, 메인 페이지, header, footer, sitemap, 페이지 전체적인 등장 애니메이션, 버튼 이벤트 구현, 조원들이 완성한 소스를 받아 시안대로 구현되지 않은 문제점이 있는지 검토하고 수정함. 
-- 조원 : 
+팀장 : 안정원 (시안 디자인, 메인 페이지, header, footer, sitemap, 페이지 전체적인 등장 애니메이션, 버튼 이벤트 구현, 조원들이 완성한 소스를 받아 시안대로 구현되지 않은 문제점이 있는지 검토하고 수정함. 
+조원 : 
 - 권동환 :연구정보, 제품정보 페이지 구현함, 연구정보의 '특허증 자세히 보기' 와 제품 정보의 버튼 이벤트를 구현함.
 - 김명아 : 회사소개 시안을 추가적으로 수정, 파비콘 디자인, 회사소개, 홍보센터 페이지를 구현함.
 
-- 깃허브 url :
+깃허브 url :
 - 안정원 : https://github.com/geniunahn/DW_main
 - 권동환 : https://github.com/z9in/project1_daewoong
 - 김명아 : https://github.com/myeongakim7/Daewoong-Plastic-Compound
