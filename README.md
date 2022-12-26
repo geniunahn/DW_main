@@ -8,7 +8,7 @@
 - 김명아 깃허브 url : https://github.com/myeongakim7/Daewoong-Plastic-Compound
 
 - 대웅 플라스틱 오리지날 사이트 : http://www.dwpolychem.com/home/index.php
-- 프로젝트 url :https://geniunahn.github.io/DW_main/
+- 프로젝트 url : https://geniunahn.github.io/DW_main/
 
 # 제작 상황 및 목표
 - 제작 상황 : 
