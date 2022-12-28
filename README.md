@@ -15,9 +15,22 @@
 - 제작 목표 : 대웅 플라스틱이라는 회사가 제공하는 부족한 정보를 최대한 활용하여 고객이 홈페이지를 보는 것 만으로도 대웅 플라스틱에게 호감을 가지고 긍정적인 인상을 받을 수 있도록 해야 한다. 또한 심미적인 장점에서 그치지 말고 정보를 효과적으로 전달할 수 있는 디자인을 고안해야 하며 기존의 대웅 플라스틱 사이트의 사이트맵을 문제점을 보완한 효과적인 사이트맵을 구성해야 한다. 기능성과 심미성을 모두 만족하는 디자인을 구상하고 그것을 성공적으로 구현하는 것이 본 프로젝트의 목적이다.
 
 # 대웅 플라스틱 사이트의 문제점
+![1](https://user-images.githubusercontent.com/106502672/209738607-7c561c41-e051-4065-8406-eb9ab529d09c.jpg)
+![2](https://user-images.githubusercontent.com/106502672/209738617-407b9349-c592-497a-a4fc-67cef77b2022.jpg)
+![3](https://user-images.githubusercontent.com/106502672/209738622-f7146b97-520f-409e-b403-b386a11445bb.jpg)
+![4](https://user-images.githubusercontent.com/106502672/209738624-2f69e31f-3dcf-4dd4-a829-b0121974cd79.jpg)
 
 # 디자인 및 적용기술 설명
-
+![5](https://user-images.githubusercontent.com/106502672/209738636-36aa06ac-bdf8-4949-8e9d-08852e1b4037.jpg)
+![6](https://user-images.githubusercontent.com/106502672/209738642-911c475d-f95f-4426-a8cd-eede7f114672.jpg)
+![7](https://user-images.githubusercontent.com/106502672/209738646-bd235491-76a1-4c0c-b0bd-8aa264c3a1e3.jpg)
+![8](https://user-images.githubusercontent.com/106502672/209738656-2a90d3e8-f08f-4266-bc1d-deca95e0c18e.jpg)
+![9](https://user-images.githubusercontent.com/106502672/209738660-3ff5b9be-6a73-41fc-a31e-de7a9b07ff36.jpg)
+![10](https://user-images.githubusercontent.com/106502672/209738665-581589a5-12fc-4378-807c-be635d244bb2.jpg)
+![11](https://user-images.githubusercontent.com/106502672/209738672-49c10b1f-020e-4b87-a791-e6acc336fae8.jpg)
+![12](https://user-images.githubusercontent.com/106502672/209738678-fa3dbfcc-1585-4d85-ab1b-6c92605404ad.jpg)
+![13](https://user-images.githubusercontent.com/106502672/209738681-a1c4d477-ac07-47bf-a1a7-f58a034b2188.jpg)
+![14](https://user-images.githubusercontent.com/106502672/209738685-a30061ee-f713-41fb-af3d-b5795b72901e.jpg)
 
 # 제작 과정에서의 문제와 극복 과정
 -
@@ -58,7 +71,7 @@
 - SEO 태그를 추가함. OG 태그 추가함.
 
 # TO DO LIST
-- 문서 구조를 효율적으로 수정해야 하며 소스가 불필요하게 중복되는 부분을 줄여야 함
+- 문서 구조를 효율적으로 수정해야 하며 소스에 불필요하게 중복되는 부분을 줄여야 함
 
 
 
