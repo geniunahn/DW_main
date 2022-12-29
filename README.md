@@ -17,7 +17,7 @@
 # 대웅 플라스틱 사이트의 문제점
 ![1](https://user-images.githubusercontent.com/106502672/209738607-7c561c41-e051-4065-8406-eb9ab529d09c.jpg)
 ![2](https://user-images.githubusercontent.com/106502672/209738617-407b9349-c592-497a-a4fc-67cef77b2022.jpg)
-![3](https://user-images.githubusercontent.com/106502672/209738622-f7146b97-520f-409e-b403-b386a11445bb.jpg)
+![3](https://user-images.githubusercontent.com/106502672/209922708-cede1813-53a3-4b4d-a097-8cacc0c4ee2e.jpg)
 ![4](https://user-images.githubusercontent.com/106502672/209738624-2f69e31f-3dcf-4dd4-a829-b0121974cd79.jpg)
 <br>
 <br>
